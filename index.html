@@ -2,3 +2,51 @@
 <!-- Remember to start by typing a single exclamation point (!) and then hitting enter or selecting the first dropdown option.-->
 <!-- This will give you the basic, necessary skeletal elements of a webpage so you can begin coding to our specific requirements! -->
 <!-- Good luck! You've got this! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Test</title>
+    <h1>Welcome To My Test Webpage</h1>
+</head>
+<style>
+    body {background-color: #e2ded9;}
+</style>
+<body> 
+<form>
+    <label for="username">Username:</label><br>
+    <input type="username" id="username" name="username" required placeholder="Please Enter A Username...">
+</form>
+<br>
+<form>
+    <label for="fruit">Favorite Fruit(s)?</label><br>
+    <input type="checkbox" name="fruit" value="apple"> Apple
+    <input type="checkbox" name="fruit" value="banana"> Banana
+    <input type="checkbox" name="fruit" value="orange"> Orange
+    <input type="checkbox" name="fruit" value="other"> Other
+</form> 
+<br>
+<form>
+    <label for="gender">Please Select Gender:</label>
+    <br>
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female" required> Female
+    <input type="radio" name="gender" value="other" required> Other
+    <input type="radio" name="gender" value="prefer not to say" required> Prefer Not To Say
+</form>
+<br>
+    <select name="country">
+        <option value="" disabled selected hidden>Choose Country...</option>
+        <option value="usa">USA</option required>
+        <option value="canada">Canada</option required>
+        <option value="uk">UK</option required>
+    </select>
+   <br>
+   <br>
+   <br>
+   <br>
+    <input type="submit" value="Submit">
+
+</body>
+</html>
